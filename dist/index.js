@@ -1,3 +1,6 @@
+//Rainbow Studios - https://discord.gg/Tccx7F7mMj
+//By Tejas Lamba#1924
+
 var __awaiter = (this && this.__awaiter) || function (thisArg, _arguments, P, generator) {
     function adopt(value) { return value instanceof P ? value : new P(function (resolve) { resolve(value); }); }
     return new (P || (P = Promise))(function (resolve, reject) {
@@ -186,6 +189,8 @@ client.on("message", (message) => __awaiter(this, void 0, void 0, function* () {
                             .then((cc) => {
                             data.channels.map((xx) => {
                                 if (xx["parentID"] === cat.id) {
+                                    //Rainbow Studios - https://discord.gg/Tccx7F7mMj
+//By Tejas Lamba#1924
                                     xx.parentID = cc.id;
                                 }
                             });
@@ -246,3 +251,5 @@ client.on("message", (message) => __awaiter(this, void 0, void 0, function* () {
     }
 }));
 client.login(require("../config.json").token);
+//Rainbow Studios - https://discord.gg/Tccx7F7mMj
+//By Tejas Lamba#1924
