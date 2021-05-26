@@ -1,3 +1,6 @@
+//Rainbow Studios - https://discord.gg/Tccx7F7mMj
+//By Tejas Lamba#1924
+
 const { Client, MessageEmbed } = require("discord.js");
 const { slayersDB } = require("slayer.db");
 const db = new slayersDB();
@@ -58,6 +61,8 @@ client.on("message", async (message) => {
     }
 
     if (args[0] === "clear") {
+      //Rainbow Studios - https://discord.gg/Tccx7F7mMj
+//By Tejas Lamba#1924
       let x = db.values();
 
       let toDelete = [];
@@ -283,3 +288,5 @@ client.on("message", async (message) => {
 });
 
 client.login(require("../config.json").token);
+//Rainbow Studios - https://discord.gg/Tccx7F7mMj
+//By Tejas Lamba#1924
